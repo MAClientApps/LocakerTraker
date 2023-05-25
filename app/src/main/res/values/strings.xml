@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">True Caller and Location Track</string>
+
+    <string name="title_activity_maps">Map</string>
+
+
+    <!--Admob Test-->
+    <string name="admob_banner_ads_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_ads_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_native_ads_id">ca-app-pub-3940256099942544/2247696110</string>-->
+    <string name="app_open_ads_id">ca-app-pub-3940256099942544/3419835294</string>
+
+    <!--Adx Test-->
+    <string name="adx_banner_ads_id">/6499/example/banner</string>
+    <string name="adx_interstitial_ads_id">/6499/example/interstitial</string>
+    <string name="adx_native_ads_id">/6499/example/native</string>
+    <string name="adx_app_open_ads_id">	/6499/example/app-open</string>
+
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "824528914240",
+    "project_id": "true-caller-37f81",
+    "storage_bucket": "true-caller-37f81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824528914240:android:d5d4036fe1d6b3ef731ca5",
+        "android_client_info": {
+          "package_name": "com.projector.callertracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824528914240-r78nak7tv3u2aejr495c3dhe9kjiooi5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9od6C1hnsqcd--rD3a-hiygth_wmagX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824528914240-r78nak7tv3u2aejr495c3dhe9kjiooi5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

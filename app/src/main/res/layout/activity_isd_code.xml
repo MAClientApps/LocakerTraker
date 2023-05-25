@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TitleToolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="0dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        android:paddingBottom="15dp"
+        android:text="ISD Codes"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bank_view_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        app:cardBackgroundColor="@color/lightgrey"
+        app:cardCornerRadius="25dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/bank_view_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:padding="@dimen/margin_5"
+                android:src="@android:drawable/ic_menu_search"
+                app:tint="@color/black" />
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="25dp"
+                android:layout_toEndOf="@+id/bank_view_img"
+                android:background="@null"
+                android:backgroundTint="@null"
+                android:hint="Search Coutry..."
+                android:imeOptions="actionDone"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl_adplaceholder"
+        android:layout_below="@+id/bank_view_card"
+        android:clipToPadding="false"
+        android:paddingHorizontal="@dimen/margin_10" />
+
+    <RelativeLayout
+        android:id="@+id/rl_adplaceholder"
+        style="@style/RelativeNativeAds"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
